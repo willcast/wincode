@@ -9,11 +9,13 @@ This program runs Nero AAC encoder, decoder and tagger, which are assumed to be 
 Basic usage
 -----------
 To make a new music folder:
+
     wincode-auto.pl <indir> <outdir> <target_size> <nthreads>
 
 To update (add to) an existing music folder:
+
     wincode-auto.pl <indir> <outdir> -<target_br> <nthreads>
-Note the '-' before the target bit rate.
+(Note the '-' before the target bit rate.)
 
 
  * *indir* is the location of the existing music library. Its layout will be duplicated in the destination. Only music files and directories will be replicated.
